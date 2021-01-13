@@ -1,17 +1,14 @@
 import './App.css';
+import Welcome from './Welcome';
 
-function App() {
-  function formatName(user){
-    return user.firstName + " " + user.lastName;
-
-  }
-  const user = {
-     firstName:"Black",
-     lastName:"Hustle"
-  }
+function App(){
   return (
     <div className="App">
-      <h1>{formatName(user)}</h1>
+      <Welcome name="crook"/>
+      <Welcome name="crook"/>
+      <Welcome name="crook"/>
+      <Welcome name="crook"/>
+      <Welcome name="crook"/>
     </div>
   );
 }
