@@ -2,6 +2,7 @@ import './App.css';
 import Forms from './Forms';
 import ListsandKeys from './ListsandKeys';
 import LoginControl from './LoginControl';
+import MultipleInputs from './MultipleInputs';
 import SelectTag from './SelectTag';
 import TextArea from './TextArea';
 import Tick from './Tick';
@@ -18,7 +19,8 @@ function App(){
       <ListsandKeys/> */}
       {/* <Forms/> */}
       {/* <TextArea/> */}
-      <SelectTag/>
+      {/* <SelectTag/> */}
+      <MultipleInputs/>
     </div>
   );
 }
