@@ -1,5 +1,6 @@
 import './App.css';
 import Calculator from './Calculator';
+import CompositionInhertance from './CompositionInhertance';
 import Forms from './Forms';
 import ListsandKeys from './ListsandKeys';
 import LoginControl from './LoginControl';
@@ -22,7 +23,8 @@ function App(){
       {/* <TextArea/> */}
       {/* <SelectTag/> */}
       {/* <MultipleInputs/> */}
-      <Calculator/>
+      {/* <Calculator/> */}
+      <CompositionInhertance/>
     </div>
   );
 }
