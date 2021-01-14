@@ -1,4 +1,5 @@
 import './App.css';
+import Forms from './Forms';
 import ListsandKeys from './ListsandKeys';
 import LoginControl from './LoginControl';
 import Tick from './Tick';
@@ -8,11 +9,12 @@ import Welcome from './Welcome';
 function App(){
   return (
     <div className="App">
-      <Welcome name="Black Hustle" />
+      {/* <Welcome name="Black Hustle" />
       <Tick/>
       <Toggle></Toggle>
       <LoginControl/>
-      <ListsandKeys/>
+      <ListsandKeys/> */}
+      <Forms/>
     </div>
   );
 }
