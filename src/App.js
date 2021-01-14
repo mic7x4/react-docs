@@ -1,4 +1,5 @@
 import './App.css';
+import ListsandKeys from './ListsandKeys';
 import LoginControl from './LoginControl';
 import Tick from './Tick';
 import Toggle from './Toggle';
@@ -11,6 +12,7 @@ function App(){
       <Tick/>
       <Toggle></Toggle>
       <LoginControl/>
+      <ListsandKeys/>
     </div>
   );
 }

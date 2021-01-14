@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import {UserGreetings, GuestGreetings, Greeting,LoginButton, LogoutButton} 
+from './Conditional'; 
 
 export default class LoginControl extends Component {
     constructor(props){
@@ -18,13 +20,12 @@ export default class LoginControl extends Component {
         const isLoggedIn = this.state.isLoggedIn;
         let button;
         if(isLoggedIn){
-            button = <LogoutButton onClick={this.handleLogoutClick}/>
+            // button = <LogoutButton onClick={this.handleLogoutClick}/>
         }else {
-            button = <LoginButton onClick={this.handleLoginClick}/>
+            // button = <LoginButton onClick={this.handleLoginClick}/>
         }
         return (
             <div>
-                <Greeting isLoggedIn={isLoggedIn}/>
             </div>
         )
     }
