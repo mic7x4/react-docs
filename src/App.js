@@ -6,6 +6,7 @@ import ListsandKeys from './ListsandKeys';
 import LoginControl from './LoginControl';
 import MultipleInputs from './MultipleInputs';
 import SelectTag from './SelectTag';
+import SignupDialog from './SignupDialog';
 import TextArea from './TextArea';
 import Tick from './Tick';
 import Toggle from './Toggle';
@@ -24,7 +25,8 @@ function App(){
       {/* <SelectTag/> */}
       {/* <MultipleInputs/> */}
       {/* <Calculator/> */}
-      <CompositionInhertance/>
+      {/* <CompositionInhertance/> */}
+      <SignupDialog/>
     </div>
   );
 }
