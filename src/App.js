@@ -1,4 +1,5 @@
 import './App.css';
+import Calculator from './Calculator';
 import Forms from './Forms';
 import ListsandKeys from './ListsandKeys';
 import LoginControl from './LoginControl';
@@ -20,7 +21,8 @@ function App(){
       {/* <Forms/> */}
       {/* <TextArea/> */}
       {/* <SelectTag/> */}
-      <MultipleInputs/>
+      {/* <MultipleInputs/> */}
+      <Calculator/>
     </div>
   );
 }
