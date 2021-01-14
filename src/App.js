@@ -6,7 +6,7 @@ function App(){
   return (
     <div className="App">
       <Welcome name="Black Hustle" />
-      <Tick date={new Date()}/>
+      <Tick/>
     </div>
   );
 }
